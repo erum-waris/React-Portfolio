@@ -46,7 +46,7 @@
       <div>
           <button className="sm:text-center w-full lg:w-[8rem] px-4 py-3 rounded-full mr-3 sm:w-fit font-semibold bg-gradient-to-br from-purple-600 via-pink-600 to-blue-600 text-white"> <a href="/contact"> Contact </a> </button>
 
-          <button  className="sm:text-center w-full lg:w-[8rem] px-1 py-1 rounded-full mr-3 sm:w-fit font-semibold mt-3 bg-gradient-to-br from-purple-600 via-pink-600 to-blue-600 hover:bg-slate-800"> <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 text-white"> Hire Me</span> </button>
+          <button  className="sm:text-center w-full lg:w-[8rem] px-1 py-1 rounded-full mr-3 sm:w-fit font-semibold mt-3 bg-gradient-to-br from-purple-600 via-pink-600 to-blue-600 hover:bg-slate-800"> <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 text-white"><a href="mailto:erumwaris93@gmail.com">Hire Me</a> </span> </button>
       </div>
       </div>
       {/* Image div */}
