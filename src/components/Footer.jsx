@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 import { FaInstagramSquare } from "react-icons/fa";
 function Footer() {
   return (
-    <div className=" relative bottom-0 w-full h-auto bg-blue-800 ">
+    <div className=" relative bottom-0 w-full h-auto bg-blue-800 mt-24 md:mt-10 ">
       <p className="text-white md:text-xl text-base text-center">
         �� &copy; 2024 ERUM WARIS All rights reserved.
       </p>
