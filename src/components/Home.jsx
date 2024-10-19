@@ -54,9 +54,9 @@ import ContactSection from './Contact';
       </div>
       </div>
       {/* Image div */}
-      <div className="col-span-5 place-self-center lg:mt-0 mt-4 ">
+      <div className="col-span-5  place-self-center lg:mt-0 mt-4 ">
           <div
-            className=" lg:w-[400px] lg:h-[400px]
+            className=" lg:w-[400px] lg:h-[400px] sm:w-[350px] sm:h-[350px]
             w-[300px] h-[300px] relative md:mb-0 mb-10"
           >
             <img
@@ -64,7 +64,7 @@ import ContactSection from './Contact';
               alt="EW Image"
               width={450}
               height={450}
-              className="transition-shadow duration-300 ease-in hover:shadow-[0_0_8px_8px_rgba(182,27,79)] rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 border-4 border-blue-500 p-2 animate-superman hover:scale-105 sm:hover:scale-125 mb-16"
+              className="transition-shadow duration-300 ease-in hover:shadow-[0_0_8px_8px_rgba(182,27,79)] rounded-full absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 border-4 border-blue-500 p-2 animate-superman hover:scale-105 sm:hover:scale-115 md:125 mb-16"
             />
           </div>
         </div>
