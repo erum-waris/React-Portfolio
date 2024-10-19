@@ -1,12 +1,16 @@
  import React from 'react'
  import { TypeAnimation } from 'react-type-animation';
  import image from "/assets/Erum_Logo.jpeg"
+ import About from"./About";
+import Projects from './Project';
+import Skills from './Skills';
+import ContactSection from './Contact';
 
 
  function Home() {
    return (
     <>
-    <div className="grid grid-cols-1 sm:grid-cols-12 h-[80vh]">
+    <div className="grid grid-cols-1 sm:grid-cols-12 h-[full]">
       <div className="col-span-7 place-self-center text-center sm:text-left mb-4 md:ml-8 ">
         <h1 className="mb-6 font-bold sm:text-5xl lg:text-6xl text-4xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-pink-600 to-purple-500">
        <span className="text-white text-3xl md:text-5xl lg:text-6xl">
@@ -53,7 +57,7 @@
       <div className="col-span-5 place-self-center lg:mt-0 mt-4 ">
           <div
             className=" lg:w-[400px] lg:h-[400px]
-            w-[300px] h-[300px] relative"
+            w-[300px] h-[300px] relative md:mb-0 mb-10"
           >
             <img
               src={image}
@@ -66,8 +70,11 @@
         </div>
       
     </div>
-   
-  
+   <About/>
+   <Projects/>
+   <Skills/>
+   <ContactSection/>
+
   </>
   
    )

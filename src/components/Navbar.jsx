@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     
       <div className=" flex justify-between items-center text-white ">
-      <div className=" p-2 md:p-8 ml-7 ">
+      <div className=" p-2 md:p-8 ml-4 ">
           <h1 className="font-bold text-4xl  md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-600 to-purple-500 hover:border-b-4 hover:border-yellow-300"> EW </h1>
           </div>
 
@@ -29,7 +29,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <div className="md:hidden">
-          <button onClick={toggleMenu} className="text-yellow-400 text-2xl mr-7">
+          <button onClick={toggleMenu} className="text-white text-2xl mr-4">
             {isOpen ? '✖' : '☰'}
           </button>
         </div>
