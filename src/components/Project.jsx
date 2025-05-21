@@ -1,15 +1,11 @@
-
-
-
-import React from 'react'
-import project1 from "/assets/project-1.png"
+import Avion from "/assets/avion.png"
 import project2 from "/assets/project-2.png"
-import project3 from "/assets/project-3.png"
-import project4 from "/assets/project-4.png"
-import project5 from "/assets/project-5.png"
-import project6 from "/assets/project-6.png"
-import project7 from "/assets/project-7.png"
-import project8 from "/assets/project-8.png"
+import parenting from "/assets/parenting.png"
+import blogs from "/assets/blogs.png"
+import library from "/assets/library.png"
+import landingpage from "/assets/landingpage.png"
+import quranacademy from "/assets/quranacademy.png"
+import creative from "/assets/creative.png"
 import project9 from "/assets/project-9.png"
 
 function ProjectsCard({
@@ -42,71 +38,71 @@ function ProjectsCard({
   )
 }
 
-
-
 const projects = [
   {
-    title: "Next js Calculator",
+    title: "Avion Market Place",
     description:
-      "I have created website using html css and javascript so check it out and share your feedback",
-    image: project1,
-    url: "https://calculator-next-js-six.vercel.app/ ",
+      "I have created Avion Ecommerce website using Next.js and Typescript so check it out and share your feedback",
+    image:Avion,
+    url: "figma-ui-ux-hackathon-mu.vercel.app",
   },
   {
-    title: "Clothing E Commerce Website ",
+    title: "Quran Academy ",
+    description:
+      "This is a Quran Academy website My Client's project I have created this website using Next.js and Typescript so check it out and share your feedback",
+    image: quranacademy,
+    url: "https://www.quranacademy.website"
+  },
+  {
+    title: " Clothing E Commerce Website ",
     description:
       "Here is E Commerce website with Next js so check it out and share your feedback",
     image: project2,
-    url: "https://e-commerce-website-pied-chi.vercel.app/"
+    url: "https://e-commerce-website-pied-chi.vercel.app/",
   },
   {
-    title: " E Commerce Book Store ",
+    title: "Parenting Blog Website",
     description:
-      "Here is Book Store ECommerce website Project live link below click there and check it",
-    image: project3,
-    url: "https://xounity-assignment-2.vercel.app/",
+      "This is a Parenting Blog website I have created this website using Next.js & integrated Sanity CMS so check it out and share your feedback",
+    image:parenting,
+    url: "https://blog-website-gold-tau.vercel.app",
   },
   {
-    title: "Periodic Table",
+    title: "Blogs Website",
     description:
-      "I made this Periodic Table Using HTML & CSS Check it from Live link below",
-    image:project4,
-    url: " https://html-css-assignments-omega.vercel.app/",
+      "This is a Blog website I have created this website using Next.js & integrated Sanity CMS so check it out and share your feedback",
+    image:blogs,
+    url: "https://milestone-3-blog-website-two.vercel.app",
   },
   {
-    title: "Quiz App",
+    title: "Creative Technologist",
     description:
-      "I made this CLI Based Quiz App with Typescript & Node js Check it From GitHub Source code",
-    image:project8,
-    url: "https://github.com/erum-waris/Quizz_app.git",
+      "This is a Creative Technologist website I have created this website using Figma Design, Next.js & Typescript so check it out and share your feedback",
+    image: creative,
+    url: "https://assignmen-4-figma.vercel.app/",
   },
   {
-    title: "Easypaisa App",
+    title: "Library Management System",
     description:
-      "I have Created CLI based an Easypaisa App Using Typescript and Node js Check it on GitHub Source code",
-    image: project9,
-    url: "https://github.com/erum-waris/EasyPaisaApp.git",
+      "This is a Library Management System I have created this website using Python and streamlit for UI so check it out and share your feedback",
+    description:
+      " ",
+    image: library,
+    url: "librarymanagerpython.streamlit.app",
   },
   {
-    title: "Simple Website",
+    title: "Landing Page",
     description:
-      "I have created a simple website Using HTML & CSS Here is Live Link check it and share your feedback",
-    image: project5,
-    url: " https://html-css-assignments-o94x.vercel.app/",
+      "I have created landing page using Next.js & Typescript so check it out and share your feedback", 
+    image:landingpage,
+    url: "assignment-5-navbar-menu.vercel.app",
   },
   {
-    title: "Book Website Landing Page",
+   title: "Quran App",
     description:
-      "I have created Book website Landing Page Here is a Live link below",
-    image:project6,
-    url: "https://xounity-assignments.vercel.app/",
-  },
-  {
-    title: "Static Resume",
-    description:
-      "I Have created Static Resume Using HTML CSS and Typescript Here is a live link below",
-    image: project7,
-    url: "https://static-resume-xi-roan.vercel.app/",
+      "This is a Quran App I have created this website using Python and streamlit for UI so check it out and share your feedback",
+    image: project1,
+    url: "https://quranapppythongit-ntsne7q8bfeetqibxfej8s.streamlit.app",
   },
 ];
  
@@ -121,8 +117,7 @@ const Projects = () => {
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8" >
         {projects.map((project ,index) => (
-          
-          
+        
           <ProjectsCard
             key={index}
             image={project.image}
@@ -141,10 +136,3 @@ const Projects = () => {
 export default Projects;
 
 
-// https://calculator-next-js-six.vercel.app/ calculator live link
-// https://vercel.com/erum-waris-projects/e-commerce-website website
-// https://static-resume-xi-roan.vercel.app/ static resume
-// https://vercel.com/erum-waris-projects/xounity-assignment-2 qasim ali shah live link
-// https://html-css-assignments-o94x.vercel.app/ Ai Assignment
-// https://vercel.com/erum-waris-projects/xounity-assignments book website live link
-// https://vercel.com/erum-waris-projects/html-css-assignments periodic table live link
