@@ -3,13 +3,14 @@ import image1 from "/assets/skills/bootstrape.jpg";
 import image2 from "/assets/skills/css.jpg";
 import image3 from "/assets/skills/tailwind.jpg";
 import image4 from "/assets/skills/ts.jpg";
-import image from "/assets/skills/image.jpeg";
 import image5 from "/assets/skills/html.png";
 import image6 from "/assets/skills/js.png";
 import image7 from "/assets/skills/next-js.png";
 import image8 from "/assets/skills/react-js.png";
+import image9 from "/assets/skills/python_logo.png";
 
-function SkillsCard({ image,title,level }) {
+
+function SkillsCard({ image,level }) {
   return (
     <div className="transition-all duration-1000 ease-in-out hover:shadow-[0_0_8px_6px_rgb(166,87,197)] hover:scale-105 bg-transparent rounded-lg overflow-hidden flex flex-col justify-between items-center border-2 border-purple-400 text-center ">
       <div className="relative mt-6 w-4/5 h-44">
@@ -28,13 +29,13 @@ function SkillsCard({ image,title,level }) {
 const skills = [
   { image: image1,level:20 },
   { image: image2, level:60 },
-  { image: image3,  level:40 },
-  { image: image4,  level:70 },
-  { image: image,  level:40 },
+  { image: image3,  level:70 },
+  { image: image4,  level:60 },
   { image: image5,  level:80 },
-  { image: image6,  level:30 },
-  { image: image7,  level:30 },
+  { image: image6,  level:60 },
+  { image: image7,  level:60 },
   { image: image8, level:10 },
+  { image: image9, level:70 },
 ];
 
 const Skills = () => {

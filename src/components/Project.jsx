@@ -6,7 +6,7 @@ import library from "/assets/library.png"
 import landingpage from "/assets/landingpage.png"
 import quranacademy from "/assets/quranacademy.png"
 import creative from "/assets/creative.png"
-import project9 from "/assets/project-9.png"
+import quranapp from "/assets/quranapp.png"
 
 function ProjectsCard({
   title,
@@ -44,7 +44,7 @@ const projects = [
     description:
       "I have created Avion Ecommerce website using Next.js and Typescript so check it out and share your feedback",
     image:Avion,
-    url: "figma-ui-ux-hackathon-mu.vercel.app",
+    url: "https://figma-ui-ux-hackathon-mu.vercel.app",
   },
   {
     title: "Quran Academy ",
@@ -61,16 +61,16 @@ const projects = [
     url: "https://e-commerce-website-pied-chi.vercel.app/",
   },
   {
-    title: "Parenting Blog Website",
+    title: "Blog Website",
     description:
-      "This is a Parenting Blog website I have created this website using Next.js & integrated Sanity CMS so check it out and share your feedback",
+      "This is a Blog website I have created this website using Next.js & integrated Sanity CMS so check it out and share your feedback",
     image:parenting,
     url: "https://blog-website-gold-tau.vercel.app",
   },
   {
-    title: "Blogs Website",
+    title: "Parenting Blogs Website",
     description:
-      "This is a Blog website I have created this website using Next.js & integrated Sanity CMS so check it out and share your feedback",
+      "This is a Parenting Blog website I have created this website using Next.js & integrated Sanity CMS so check it out and share your feedback",
     image:blogs,
     url: "https://milestone-3-blog-website-two.vercel.app",
   },
@@ -85,23 +85,21 @@ const projects = [
     title: "Library Management System",
     description:
       "This is a Library Management System I have created this website using Python and streamlit for UI so check it out and share your feedback",
-    description:
-      " ",
     image: library,
-    url: "librarymanagerpython.streamlit.app",
+    url: "https://librarymanagerpython.streamlit.app",
   },
   {
     title: "Landing Page",
     description:
       "I have created landing page using Next.js & Typescript so check it out and share your feedback", 
     image:landingpage,
-    url: "assignment-5-navbar-menu.vercel.app",
+    url: "https://assignment-5-navbar-menu.vercel.app",
   },
   {
    title: "Quran App",
     description:
       "This is a Quran App I have created this website using Python and streamlit for UI so check it out and share your feedback",
-    image: project1,
+    image: quranapp,
     url: "https://quranapppythongit-ntsne7q8bfeetqibxfej8s.streamlit.app",
   },
 ];

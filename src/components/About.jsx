@@ -1,6 +1,6 @@
 import React from 'react'
-import image from "/assets/ew-logo.jpg"
-import certificate from "/assets/enhlishcerti.png"
+import event from "/assets/event.png"
+import certificate from "/assets/englishcerti.png"
 
 function About() {
   return (
@@ -29,15 +29,25 @@ Now, I am enrolled in the Governor Initiative for Artificial Intelligence, Agent
             </p>
             </div>
       
-      <div  className=" lg:w-[600px] lg:h-600px]
-            w-[350px] h-[350px] m-auto mt-10 mb-[-15] md:mb-20 sm:hover:scale-125 hover:scale-110 ">
-        <img src={image}  alt="img" width={550} height={550}
-        className='className="transition-shadow duration-300 ease-in hover:shadow-[0_0_10px_10px_rgba(182,27,79)] rounded-full border-4 border-blue-500 p-2 animate-superman"'/>
-      </div>
-       <div  className=" lg:w-[600px] lg:h-600px] w-[350px] h-[350px] m-auto mt-10 mb-[-15] md:mb-20 sm:hover:scale-125 hover:scale-110 ">
-        <img src={ certificate }  alt="img" width={550} height={550}
-        className='className="transition-shadow duration-300 ease-in hover:shadow-[0_0_10px_10px_rgba(182,27,79)] border-4 border-blue-500 p-2 animate-superman"'/>
-      </div>
+    <div className='grid grid-cols-1 md:grid-cols-2 gap-7 p-4'>
+  {/* Image 1 */}
+  <div className="max-w-[600px] max-h-[600px] w-full h-auto mx-auto my-4 md:my-10 hover:scale-105 transition-transform duration-300">
+    <img 
+      src={event} 
+      alt="img" 
+      className="w-full h-full object-contain border-4 border-blue-500 p-2 hover:shadow-[0_0_10px_10px_rgba(182,27,79)]"
+    />
+  </div>
+
+  {/* Image 2 */}
+  <div className="max-w-[600px] max-h-[600px] w-full h-auto mx-auto my-4 md:my-10 hover:scale-105 transition-transform duration-300">
+    <img 
+      src={certificate} 
+      alt="certificate" 
+      className="w-full h-full object-contain border-4 border-blue-500 p-2 hover:shadow-[0_0_10px_10px_rgba(182,27,79)]"
+    />
+  </div>
+</div>
     </div>
   )
 }

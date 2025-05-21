@@ -1,6 +1,6 @@
  import React from 'react'
  import { TypeAnimation } from 'react-type-animation';
- import image from "/assets/Erum_Logo.jpeg"
+ import image from "/assets/logo.png"
  import About from"./About";
 import Projects from './Project';
 import Skills from './Skills';
