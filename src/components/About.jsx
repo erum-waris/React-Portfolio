@@ -1,7 +1,7 @@
 import React from 'react'
 import event from "/assets/event.png"
 import certificate from "/assets/englishcerti.png"
-
+import frontend_xounity from "/assets/frontend_xounity.png"
 function About() {
   return (
     <div className="flex flex-col font-sans p-2 md:p-8  mt-10 ">
@@ -43,6 +43,15 @@ Now, I am enrolled in the Governor Initiative for Artificial Intelligence, Agent
   <div className="max-w-[600px] max-h-[600px] w-full h-auto mx-auto my-4 md:my-10 hover:scale-105 transition-transform duration-300">
     <img 
       src={certificate} 
+      alt="certificate" 
+      className="w-full h-full object-contain border-4 border-blue-500 p-2 hover:shadow-[0_0_10px_10px_rgba(182,27,79)]"
+    />
+  </div>
+</div>
+<div className='p-4'>
+  <div className="max-w-[600px] max-h-[600px] w-full h-auto mx-auto my-4 md:my-10 hover:scale-105 transition-transform duration-300">
+    <img 
+      src={frontend_xounity} 
       alt="certificate" 
       className="w-full h-full object-contain border-4 border-blue-500 p-2 hover:shadow-[0_0_10px_10px_rgba(182,27,79)]"
     />
