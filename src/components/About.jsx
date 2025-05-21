@@ -1,5 +1,7 @@
 import React from 'react'
 import image from "/assets/ew-logo.jpg"
+import certificate from "/assets/enhlishcerti.png"
+
 function About() {
   return (
     <div className="flex flex-col font-sans p-2 md:p-8  mt-10 ">
@@ -8,7 +10,7 @@ function About() {
 
       </span>
       <p className="lg:text-2xl text-base sm:text-xl m-5 text-white ">
-      As a frontend web developer, I've developed a solid foundation in HTML, CSS, JavaScript, TypeScript, React, and Next.js. With a deep interest in building engaging and user-friendly interfaces, I continuously work on honing my skills to create seamless web experiences. I am always eager to explore new frameworks and tools that enhance the user experience.
+      As a frontend web developer, I've developed a solid foundation in HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Sanity CMS & Python Programming. With a deep interest in building engaging and user-friendly interfaces, I continuously work on houning my skills to create seamless web experiences. I am always eager to explore new frameworks and tools that enhance the user experience.
 
 In addition to frontend development, I am also captivated by the dynamic field of artificial intelligence. I see AI as a transformative technology that intersects with many aspects of development and problem-solving. My curiosity drives me to stay informed about the latest advancements and explore how AI can be integrated into web technologies.
 
@@ -22,7 +24,7 @@ As a passionate learner, I thrive on the excitement of discovery and innovation.
             <p className="lg:text-2xl text-base sm:text-xl m-5 text-white ">
             I matriculated in 2010 from Islamia Girls High School with 81% in Science. Currently, I am pursuing my Intermediate education and passed HSC-Part I in 2024 with 86% in Commerce. I also completed an Intermediate Level English Language Course from SKH Online Education.
 
-Now, I am enrolled in the Governor Initiative for Artificial Intelligence, Web 3.0, and Metaverse. In Quarter 1, I have learnt TypeScript, and in Quarter 2, I am studying Next.js. Additionally, I have joined the Xounity Online Frontend Bootcamp, where I am learning the basics of HTML, CSS, JavaScript, DOM Manipulation, and React.js.
+Now, I am enrolled in the Governor Initiative for Artificial Intelligence, Agentic AI & Robotics AI. In Quarter 1, I learnt TypeScript, in Quarter 2, I learnt Next.js Additionally, I joined the Xounity Online Frontend Bootcamp, where I learnt the basics of HTML, CSS, JavaScript, DOM Manipulation, and React.js, in Quarter 3, I have been learning Python & Now I'm Learning Agentic AI in Quarter 4 .
              
             </p>
             </div>
@@ -31,6 +33,10 @@ Now, I am enrolled in the Governor Initiative for Artificial Intelligence, Web 3
             w-[350px] h-[350px] m-auto mt-10 mb-[-15] md:mb-20 sm:hover:scale-125 hover:scale-110 ">
         <img src={image}  alt="img" width={550} height={550}
         className='className="transition-shadow duration-300 ease-in hover:shadow-[0_0_10px_10px_rgba(182,27,79)] rounded-full border-4 border-blue-500 p-2 animate-superman"'/>
+      </div>
+       <div  className=" lg:w-[600px] lg:h-600px] w-[350px] h-[350px] m-auto mt-10 mb-[-15] md:mb-20 sm:hover:scale-125 hover:scale-110 ">
+        <img src={ certificate }  alt="img" width={550} height={550}
+        className='className="transition-shadow duration-300 ease-in hover:shadow-[0_0_10px_10px_rgba(182,27,79)] border-4 border-blue-500 p-2 animate-superman"'/>
       </div>
     </div>
   )
