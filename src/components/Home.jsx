@@ -40,7 +40,7 @@ import ContactSection from './Contact';
   />
         </h1>
         <p className="lg:text-2xl text-base sm:text-xl mb-6 text-white p-3">
-         I am a passionate front-end developer with expertise in TypeScript, JavaScript, React.js, Next.js, Node.js, and Python. I craft responsive, high-performance web apps with a focus on user experience and clean architecture. Currently, I am expanding into AI Agent development using agentic AI principles—building autonomous, goal-driven systems that learn, adapt, and act proactively. I thrive on solving real-world problems and continuously explore emerging technologies to create intelligent, future-ready solutions.
+        Front-end developer skilled in HTML, CSS, Javascript, React, Next.js, TypeScript, and Python, building intuitive web apps and AI-driven solutions. Advancing Agentic AI and robotic systems to create autonomous, adaptive technologies. Bridging code and innovation to solve real-world challenges.
         </p>
       <div>
           <button className="sm:text-center w-full lg:w-[8rem] px-4 py-3 rounded-full mr-3 sm:w-fit font-semibold bg-gradient-to-br from-purple-600 via-pink-600 to-blue-600 text-white"> <a href="/contact"> Contact </a> </button>
