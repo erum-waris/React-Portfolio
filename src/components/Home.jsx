@@ -24,11 +24,11 @@ import ContactSection from './Contact';
       1000, // wait 1s before replacing "Mice" with "Hamsters"
       'FrontEnd Developer',
       1000,
-      'React Developer',
-      1000,
       'Next-js Developer',
       1000,
-      'Passionate Learner',
+      'Python Developer',
+      1000,
+      'FrontEnd Developer',
       1000,
       'AI Learner',
       1000
@@ -40,12 +40,7 @@ import ContactSection from './Contact';
   />
         </h1>
         <p className="lg:text-2xl text-base sm:text-xl mb-6 text-white p-3">
-          A passionate front-end web developer. I have honed my skills in a
-          variety of technologies, including TypeScript, JavaScript, HTML,
-          CSS and Node.js. I create efficient and responsive
-          websites that provide a great user experience. Whether it is coding
-          up a new feature or optimizing performance, I am always eager to take
-          on new challenges and continue learning in this ever-evolving field.
+         I am a passionate front-end developer with expertise in TypeScript, JavaScript, React.js, Next.js, Node.js, and Python. I craft responsive, high-performance web apps with a focus on user experience and clean architecture. Currently, I am expanding into AI Agent development using agentic AI principles—building autonomous, goal-driven systems that learn, adapt, and act proactively. I thrive on solving real-world problems and continuously explore emerging technologies to create intelligent, future-ready solutions.
         </p>
       <div>
           <button className="sm:text-center w-full lg:w-[8rem] px-4 py-3 rounded-full mr-3 sm:w-fit font-semibold bg-gradient-to-br from-purple-600 via-pink-600 to-blue-600 text-white"> <a href="/contact"> Contact </a> </button>
